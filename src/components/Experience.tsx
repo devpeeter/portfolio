@@ -22,6 +22,13 @@ const Experience = () => {
 
     return () => observer.disconnect();
   }, []);
+
+  Designed and optimized smart contracts and blockchain functionalities on Starknet Layer 2.
+•Implemented backend services integrated with the Argent Wallet SDK for the Telegram platform.
+•Developed secure and efficient transaction flows for onboarding, remittance, and off-ramping.
+•Collaborated with frontend and product teams to ensure a seamless and intuitive user experience.
+•Addressed technical challenges and resolved issues during the development lifecycle.
+•Contributed to technical documentation and promoted best practices across the team.
   
   const experiences = [
     {
@@ -30,7 +37,7 @@ const Experience = () => {
       duration: 'November 2024 - Present',
       location: 'Remote',
       type: 'Full-time',
-      description: 'Leading the development of next-generation DeFi protocols with focus on yield optimization and cross-chain interoperability. Architected smart contracts handling over $100M TVL with zero security incidents.',
+      description: '',
       responsibilities: [
         {
           icon: <TrendingUp size={16} />,
