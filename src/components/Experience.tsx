@@ -333,7 +333,7 @@ const Experience = () => {
                     </div>
                       <h4 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white mb-4 lg:mb-6 flex items-center gap-2">
                         <Users size={18} className="text-green-400 sm:w-5 sm:h-5" />
-                        Key Responsibilities
+                        Responsibilities
                       </h4>
                         
                        
