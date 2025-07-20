@@ -37,12 +37,12 @@ const Experience = () => {
       duration: 'November 2024 - Present',
       location: 'Remote',
       type: 'Full-time',
-      description: '',
+      description: 'Led the foundational development of Mariblock Labs, the R&D arm of Mariblock, and helped establish Mariblock Collectives, its official developer community. Collaborated as part of the core engineering team driving the development of Mariblock’s upcoming DeFi protocol, focused on delivering secure, scalable, and inclusive financial infrastructure',
       responsibilities: [
         {
           icon: <TrendingUp size={16} />,
-          text: 'Designed and deployed yield aggregation protocol achieving 40% higher APY than competitors',
-          impact: '+40% APY'
+          text: 'Build Mariblock Lab and Mariblock collectives',
+          impact: 'Enabled R&D and community growth'
         },
         {
           icon: <Zap size={16} />,
