@@ -84,8 +84,8 @@ const About = () => {
       title: "Measurable Contributions",
       metrics: [
         { value: "100+", label: "Smart Contracts", description: "Deployed with zero security incidents" },
+        { value: "50+", label: "Devs", description: "Unboarded into Web3" },
         { value: "12+", label: "Hackathons Won", description: "Accross Dfifferent Protocols" },
-        { value: "95%", label: "Gas Optimization", description: "Average reduction achieved" },
         { value: "10+", label: "Mainnet DApps", description: "Across different protocols" }
       ]
     }
