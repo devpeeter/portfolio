@@ -78,17 +78,17 @@ const Experience = () => {
       duration: 'July 2023 – March 2024',
       location: 'Flagstone, QLD, Australia (Remote)',
       type: 'Full-time',
-      description: 'Developed Layer 2 scaling solutions and consensus mechanisms. Built infrastructure supporting 10,000+ TPS with sub-second finality, revolutionizing blockchain scalability.',
+      description: 'Developed the company’s core platform that connects customers with artisans for seamless service delivery. Also built the internal Learning Management System (LMS) to support onboarding, training, and continuous skill development.',
       responsibilities: [
         {
           icon: <Zap size={16} />,
-          text: 'Implemented optimistic rollup solution reducing transaction costs by 95%',
-          impact: '-95% Costs'
+          text: 'Integrated RabbitMQ to optimize communication, achieving 20% lower message latency, 25% better responsiveness, and 60% reduction in processing bottlenecks',
+          impact: 'Reduced latency and bottlenecks'
         },
         {
           icon: <Code2 size={16} />,
-          text: 'Built custom consensus algorithm improving network efficiency by 300%',
-          impact: '+300% Efficiency'
+          text: 'Engineered secure authentication systems with Spring Security and OAuth2, enhancing security by 80%, reducing vulnerabilities by 30%, and increasing user engagement by 25%',
+          impact: 'Enhanced security and adoption'
         },
         {
           icon: <Users size={16} />,
@@ -97,8 +97,23 @@ const Experience = () => {
         },
         {
           icon: <Globe size={16} />,
-          text: 'Designed cross-chain bridge handling $50M+ in daily volume',
-          impact: '$50M+ Volume'
+          text: 'Improved database performance with Flyway and an optimized framework, cutting query times by 50% and reducing deployment complexity by 50%',
+          impact: 'Reduced query time and complexity'
+        },
+        {
+          icon: <Globe size={16} />,
+          text: 'Developed comprehensive validation and error-handling mechanisms, reducing critical bugs by 95%, system downtime by 40%, and resolution time by 50%',
+          impact: 'Minimized bugs and downtime'
+        },
+        {
+          icon: <Globe size={16} />,
+          text: 'Enabled seamless and secure payments through Stripe, PayPal, and PayID, boosting customer conversion rates by 10%',
+          impact: 'Improved payment success'
+        },
+        {
+          icon: <Globe size={16} />,
+          text: 'Conducted detailed requirement analysis and testing, improving overall system performance and ensuring real-time updates with RabbitMQ',
+          impact: 'Enhanced system reliability'
         }
       ],
       technologies: ['Go', 'Rust', 'Solidity', 'Docker', 'Kubernetes', 'gRPC'],
