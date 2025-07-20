@@ -91,11 +91,6 @@ const Experience = () => {
           impact: 'Enhanced security and adoption'
         },
         {
-          icon: <Users size={16} />,
-          text: 'Mentored junior developers and established security best practices across teams',
-          impact: 'Team Leadership'
-        },
-        {
           icon: <Globe size={16} />,
           text: 'Improved database performance with Flyway and an optimized framework, cutting query times by 50% and reducing deployment complexity by 50%',
           impact: 'Reduced query time and complexity'
@@ -114,6 +109,11 @@ const Experience = () => {
           icon: <Globe size={16} />,
           text: 'Conducted detailed requirement analysis and testing, improving overall system performance and ensuring real-time updates with RabbitMQ',
           impact: 'Enhanced system reliability'
+        },
+         {
+          icon: <Users size={16} />,
+          text: 'Mentored junior developers and established security best practices across teams',
+          impact: 'Team Leadership'
         }
       ],
       technologies: ['Go', 'Rust', 'Solidity', 'Docker', 'Kubernetes', 'gRPC'],
