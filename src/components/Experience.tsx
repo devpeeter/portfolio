@@ -116,7 +116,7 @@ const Experience = () => {
           impact: 'Team Leadership'
         }
       ],
-      technologies: ['Go', 'Rust', 'Solidity', 'Docker', 'Kubernetes', 'gRPC'],
+      technologies: ['Java', 'Node', 'React', 'Docker', 'PostgreSQL', 'RabbitMQ', 'Flyway' ],
       website: 'https://www.syncskills.com.au/',
       gradient: 'from-blue-500 via-cyan-500 to-teal-500'
     },
