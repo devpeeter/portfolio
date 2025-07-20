@@ -183,7 +183,7 @@ const Hero = () => {
           </div>
           
           {/* Hero Description */}
-          
+          <div  >
             <p className="text-base sm:text-lg lg:text-xl xl:text-2xl text-gray-300 leading-relaxed mb-4 lg:mb-6 px-4 sm:px-0">
               Architecting the <span className="text-transparent bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text font-semibold">future of true decentralization and privacy</span> through 
               innovative protocol design, zero-knowledge-powered solutions, 
