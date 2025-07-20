@@ -318,7 +318,7 @@ const Experience = () => {
                     <div className="mb-6 lg:mb-8">
                       <h4 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white mb-3 lg:mb-4 flex items-center gap-2">
                         <Code2 size={18} className="text-blue-400 sm:w-5 sm:h-5" />
-                        Technologies Used
+                        Tech Stack
                       </h4>
                       <div className="flex flex-wrap gap-2 lg:gap-3">
                         {experiences[activeExperience].technologies.map((tech, techIndex) => (
