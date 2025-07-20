@@ -26,17 +26,9 @@ const Projects = () => {
       description: 'A blockchain-powered event management and ticketing platform that empowers organizers to manage events effortlessly while providing guests with seamless registration and check-in. The system also supports automatic refunds in the event of a cancellation',
       image: 'https://api.microlink.io/?url=https%3A%2F%2Feventos-beige.vercel.app%2F&screenshot=true&embed=screenshot.url',
       technologies: ['Solidity', 'TypeScript', 'Hardhat', 'OpenZeppelin', 'Merkle Trees'],
-      github: 'https://eventos-beige.vercel.app/',
-      live: '#'
+      github: 'https://github.com/intelliDean/High-V',
+      live: 'https://eventos-beige.vercel.app/'
     },
-    {
-      title: 'NFT Marketplace & Launchpad',
-      description: 'A comprehensive NFT platform with minting, trading, and staking capabilities. Features include royalty distribution, batch operations, and gas-optimized contracts.',
-      image: 'https://images.pexels.com/photos/8369648/pexels-photo-8369648.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['Solidity', 'Next.js', 'IPFS', 'The Graph', 'MetaMask'],
-      github: '#',
-      live: '#'
-    }
   ];
 
   const nextProject = () => {
