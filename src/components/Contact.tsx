@@ -77,7 +77,7 @@ const Contact = () => {
     },
     {
       icon: <Phone size={20} />,
-      label: 'Phone',
+      label: 'WhatsApp',
       value: '+234 809 572 9090',
       link: 'https://api.whatsapp.com/send/?phone=%2B2348095729090&text&type=phone_number&app_absent=0'
     },
