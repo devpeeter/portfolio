@@ -6,9 +6,9 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'DeFi Yield Aggregator',
-      description: 'A sophisticated yield farming protocol that automatically optimizes returns across multiple DeFi platforms. Features include automated rebalancing, gas optimization, and risk assessment.',
-      image: 'https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'ERI',
+      description: 'A blockchain-based protocol that verifies the authenticity and ownership of physical products using EIP-712 signed certificates and QR codes — bridging the gap between the physical world and on-chain trust',
+      image: 'https://api.microlink.io/?url=https%3A%2F%2Feri-alpha.vercel.app%2F&screenshot=true&embed=screenshot.url',
       technologies: ['Solidity', 'React', 'Web3.js', 'Chainlink', 'IPFS'],
       github: '#',
       live: '#'
