@@ -183,7 +183,7 @@ const Hero = () => {
           </div>
           
           {/* Hero Description */}
-          <div  >
+          <div className={`max-w-4xl mx-auto transition-all duration-1000 delay-400 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             <p className="text-base sm:text-lg lg:text-xl xl:text-2xl text-gray-300 leading-relaxed mb-4 lg:mb-6 px-4 sm:px-0">
               Architecting the <span className="text-transparent bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text font-semibold">future of true decentralization and privacy</span> through 
               innovative protocol design, zero-knowledge-powered solutions, 
