@@ -304,7 +304,7 @@ const Experience = () => {
                   {/* Experience Details */}
                   <div className="lg:col-span-2 p-6 sm:p-8 lg:p-12">
                     <div className="mb-6 lg:mb-8">
-                      <h4 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 dark:text-white mb-3 lg:mb-4">Role Overview</h4>
+                      <h4 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 dark:text-white mb-3 lg:mb-4">Role Summary</h4>
                       <p className="text-gray-600 dark:text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed">
                         {experiences[activeExperience].description}
                       </p>
