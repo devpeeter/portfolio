@@ -139,7 +139,7 @@ const Projects = () => {
                     </div>
                     
                     <div className="mb-6 lg:mb-8">
-                      <h4 className="text-white font-semibold mb-2 lg:mb-3 text-sm lg:text-base">Technologies Used:</h4>
+                      <h4 className="text-white font-semibold mb-2 lg:mb-3 text-sm lg:text-base">Tech Stack:</h4>
                       <div className="flex flex-wrap gap-2 lg:gap-3">
                         {projects[activeProject].technologies.map((tech, techIndex) => (
                           <span key={techIndex} className="bg-gradient-to-r from-green-500/20 to-teal-500/20 text-green-300 px-2 sm:px-3 py-1 sm:py-2 rounded-md lg:rounded-lg text-xs sm:text-sm border border-green-500/30 font-medium">
