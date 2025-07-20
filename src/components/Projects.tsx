@@ -14,7 +14,7 @@ const Projects = () => {
       live: 'https://eri-alpha.vercel.app/'
     },
     {
-      title: 'StarkPay',
+      title: 'STARKPAY',
       description: 'A blockchain-based platform that lets users generate payment invoices and track incoming funds seamlessly. Instead of sharing wallet addresses, users simply create an invoice—making it easier and safer for others to send them crypto',
       image: 'https://api.microlink.io/?url=https%3A%2F%2Fstarkpay.vercel.app%2F&screenshot=true&embed=screenshot.url',
       technologies: ['Cairo', 'React', 'Starknet React', 'IPFS', 'Pragma'],
@@ -22,11 +22,11 @@ const Projects = () => {
       live: 'https://starkpay.vercel.app/'
     },
     {
-      title: 'Cross-Chain Bridge Protocol',
-      description: 'A secure cross-chain bridge enabling seamless asset transfers between Ethereum, Polygon, and Binance Smart Chain with minimal fees and maximum security.',
-      image: 'https://images.pexels.com/photos/159711/network-cable-ethernet-computer-159711.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'EVENTOS',
+      description: 'A blockchain-powered event management and ticketing platform that empowers organizers to manage events effortlessly while providing guests with seamless registration and check-in. The system also supports automatic refunds in the event of a cancellation',
+      image: 'https://api.microlink.io/?url=https%3A%2F%2Feventos-beige.vercel.app%2F&screenshot=true&embed=screenshot.url',
       technologies: ['Solidity', 'TypeScript', 'Hardhat', 'OpenZeppelin', 'Merkle Trees'],
-      github: '#',
+      github: 'https://eventos-beige.vercel.app/',
       live: '#'
     },
     {
