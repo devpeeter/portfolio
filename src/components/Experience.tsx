@@ -22,7 +22,7 @@ const Experience = () => {
 
     return () => observer.disconnect();
   }, []);
-  
+
   const experiences = [
     {
       company: 'Mariblock',
@@ -116,7 +116,7 @@ const Experience = () => {
           impact: 'Team Leadership'
         }
       ],
-      technologies: ['Java', 'Node', 'React', 'Docker', 'PostgreSQL', 'RabbitMQ', 'Flyway' ],
+      technologies: ['Java', 'Node', 'React', 'Docker', 'PostgreSQL', 'RabbitMQ', 'Flyway'],
       website: 'https://www.syncskills.com.au/',
       gradient: 'from-blue-500 via-cyan-500 to-teal-500'
     },
@@ -126,30 +126,35 @@ const Experience = () => {
       duration: 'December 2022 – June 2023',
       location: 'Lagos, Nigeria',
       type: 'Hybrid',
-      description: 'Focused on building secure, gas-optimized smart contracts for various DeFi applications including DEXs, lending protocols, and NFT marketplaces. Pioneered several gas optimization techniques.',
+      description: 'Worked with a cross-functional team to develop a task delegation platform that connects requesters with service providers. Implemented core backend features including user matching, real-time notifications, and secure transaction flows. Focused on scalable architecture and smooth user experience across web and mobile clients.',
       responsibilities: [
         {
           icon: <Shield size={16} />,
-          text: 'Deployed 25+ audited smart contracts with zero security incidents',
-          impact: '25+ Contracts'
+          text: 'Produced scalable, multimodule code, paving the way for microservices migration and achieving an estimated 30% performance improvement',
+          impact: 'Improved scalability and performance'
         },
         {
           icon: <Zap size={16} />,
-          text: 'Optimized contract gas usage by average of 35% across all deployments',
-          impact: '-35% Gas'
+          text: 'Designed resilient database architecture with Flyway integration, reducing deployment complexity by 50%, query response times by 40%, and ensuring 99% uptime',
+          impact: 'Improved DB reliability and speed'
         },
         {
           icon: <Globe size={16} />,
-          text: 'Integrated with 15+ major DeFi protocols and price oracles',
-          impact: '15+ Integrations'
+          text: 'Engineered intuitive user interfaces and implemented features that reduced resource consumption by 30% and boosted user engagement by 15%',
+          impact: 'Improved UX and performance'
         },
         {
           icon: <Award size={16} />,
-          text: 'Contributed to 3 successful protocol launches with combined $10M+ TVL',
-          impact: '$10M+ TVL'
+          text: 'Integrated the Squard payment gateway, enabling secure transactions and increasing customer conversion rates by 10%',
+          impact: 'Improved payment flow'
+        },
+        {
+          icon: <Award size={16} />,
+          text: 'Conducted thorough testing and validation, leading to a 95% reduction in critical issues and a 25% enhancement in system functionality and reliability',
+          impact: 'Enhanced system stability'
         }
       ],
-      technologies: ['Solidity', 'Web3.js', 'Truffle', 'OpenZeppelin', 'IPFS', 'React'],
+      technologies: ['Java', 'Node', 'React', 'Docker', 'MongoDB', 'Flyway'],
       website: '#',
       gradient: 'from-green-500 via-emerald-500 to-teal-500'
     },
