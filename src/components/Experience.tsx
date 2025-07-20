@@ -68,7 +68,7 @@ const Experience = () => {
           impact: 'Documentation'
         }
       ],
-      technologies: ['Solidity', 'Rust', 'Hardhat', 'Chainlink', 'OpenZeppelin', 'Foundry'],
+      technologies: ['Cairo', 'Java', 'Starknet Foundry', 'Node', 'OpenZeppelin'],
       website: 'https://www.mariblock.com/',
       gradient: 'from-purple-500 via-pink-500 to-red-500'
     },
