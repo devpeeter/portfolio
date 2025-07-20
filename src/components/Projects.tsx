@@ -14,12 +14,12 @@ const Projects = () => {
       live: 'https://eri-alpha.vercel.app/'
     },
     {
-      title: 'Layer 2 Scaling Solution',
-      description: 'A custom Layer 2 solution built on Ethereum using optimistic rollups. Reduces transaction costs by 95% while maintaining security and decentralization.',
-      image: 'https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['Rust', 'Go', 'Solidity', 'Node.js', 'Docker'],
-      github: '#',
-      live: '#'
+      title: 'StarkPay',
+      description: 'A blockchain-based platform that lets users generate payment invoices and track incoming funds seamlessly. Instead of sharing wallet addresses, users simply create an invoice—making it easier and safer for others to send them crypto',
+      image: 'https://api.microlink.io/?url=https%3A%2F%2Fstarkpay.vercel.app%2F&screenshot=true&embed=screenshot.url',
+      technologies: ['Cairo', 'React', 'Starknet React', 'IPFS', 'Pragma'],
+      github: 'https://github.com/intelliDean/StarkPay_Contract',
+      live: 'https://starkpay.vercel.app/'
     },
     {
       title: 'Cross-Chain Bridge Protocol',
