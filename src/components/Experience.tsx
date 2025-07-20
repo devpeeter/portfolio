@@ -22,13 +22,6 @@ const Experience = () => {
 
     return () => observer.disconnect();
   }, []);
-
-  Designed and optimized smart contracts and blockchain functionalities on Starknet Layer 2.
-•Implemented backend services integrated with the Argent Wallet SDK for the Telegram platform.
-•Developed secure and efficient transaction flows for onboarding, remittance, and off-ramping.
-•Collaborated with frontend and product teams to ensure a seamless and intuitive user experience.
-•Addressed technical challenges and resolved issues during the development lifecycle.
-•Contributed to technical documentation and promoted best practices across the team.
   
   const experiences = [
     {
@@ -42,22 +35,37 @@ const Experience = () => {
         {
           icon: <TrendingUp size={16} />,
           text: 'Build Mariblock Lab and Mariblock collectives',
-          impact: 'Enabled R&D and community growth'
+          impact: 'R&D and Community Growth'
         },
         {
           icon: <Zap size={16} />,
-          text: 'Reduced gas costs by 60% through advanced contract optimization techniques and assembly code',
+          text: 'Designed and optimized smart contracts and blockchain functionalities on Starknet blockchain',
           impact: '-60% Gas'
         },
         {
           icon: <Shield size={16} />,
-          text: 'Led comprehensive security audits and implemented multi-sig governance systems',
-          impact: '100% Security'
+          text: 'Implemented backend services integrated with the Argent Wallet SDK for the Telegram platform',
+          impact: 'Easy Adoption'
         },
         {
           icon: <Users size={16} />,
-          text: 'Mentored 5 junior developers and established blockchain development best practices',
-          impact: '5 Mentees'
+          text: 'Developed secure and efficient transaction flows for onboarding, remittance, and off-ramping',
+          impact: 'Seemless UX'
+        },
+        {
+          icon: <Users size={16} />,
+          text: 'Collaborated with frontend and product teams to ensure a seamless and intuitive user experience',
+          impact: 'Seemless UI'
+        },
+        {
+          icon: <Users size={16} />,
+          text: 'Addressed technical challenges and resolved issues during the development lifecycle',
+          impact: '95% Security'
+        },
+        {
+          icon: <Users size={16} />,
+          text: 'Contributed to technical documentation and promoted best practices across the team',
+          impact: 'Documentation'
         }
       ],
       technologies: ['Solidity', 'Rust', 'Hardhat', 'Chainlink', 'OpenZeppelin', 'Foundry'],
