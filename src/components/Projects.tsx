@@ -9,9 +9,9 @@ const Projects = () => {
       title: 'ERI',
       description: 'A blockchain-based protocol that verifies the authenticity and ownership of physical products using EIP-712 signed certificates and QR codes — bridging the gap between the physical world and on-chain trust',
       image: 'https://api.microlink.io/?url=https%3A%2F%2Feri-alpha.vercel.app%2F&screenshot=true&embed=screenshot.url',
-      technologies: ['Solidity', 'React', 'Web3.js', 'Chainlink', 'IPFS'],
-      github: '#',
-      live: '#'
+      technologies: ['Cairo', 'React', 'Starknet.js', 'Chainlink', 'IPFS'],
+      github: 'https://github.com/intelliDean/eri-stark-frontend',
+      live: 'https://eri-alpha.vercel.app/'
     },
     {
       title: 'Layer 2 Scaling Solution',
